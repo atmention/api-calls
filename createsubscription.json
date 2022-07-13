@@ -1,70 +1,68 @@
 {
-"currency": "USD",
-"account": {
-"id": "",// blank because pushed to github
-"code": "",// blank because pushed to github
-"acquisition": {},
-"username": "tpc305",
-"email": "user@example.com",
-"preferred_locale": "en-US",
-"cc_emails": null,
-"first_name": "Steve",
-"last_name": "Jackson",
-"company": "Recurly",
-"vat_number": null,
-"tax_exempt": true,
-"exemption_certificate": null,
-"parent_account_code": null,
-"parent_account_id": null,
-"bill_to": "self",
-"transaction_type": "moto",
-"dunning_campaign_id": null,
-"invoice_template_id": null,
-"address": {
-"phone": null,
-"street1": "123 Pleasant Way",
-"street2": null,
-"city": "Denver",
-"region": "Mid",
-"postal_code": "80203",
-"country": "US"
-},
-"billing_info": {
-"first_name": "Steve",
-"last_name": "Jackson",
-"company": "Recurly",
-"address": {
-"phone": "303-502-0000",
-"street1": "123 Pleasant Way",
-"street2": null,
-"city": "Denver",
-"region": "Mid",
-"postal_code": "80203",
-"country": "US"
-},
-"number": "4111111111111111",
-"month": "10",
-"year": "2022",
-"cvv": null
-},
-"custom_fields": []
-},
-"subscriptions": [
-{
-"plan_code": "plan10",
-"plan_id": "",
-"unit_amount": 0,
-"quantity": 2,
-"add_ons": [],
-"custom_fields": [],
-"shipping": {},
-"trial_ends_at": null,
-"starts_at": "2022-07-08T10:15:22Z",
-"next_bill_date": "2022-08-24T14:15:22Z",
-"total_billing_cycles": 1,
-"renewal_billing_cycles": 10,
-"auto_renew": true,
-"revenue_schedule_type": "at_range_end"
-}
-]
+    "currency": "USD",
+    "account": {
+        "id": "", // blank because pushed to github
+        "code": "", // blank because pushed to github
+        "acquisition": {},
+        "username": "tpc305",
+        "email": "user@example.com",
+        "preferred_locale": "en-US",
+        "cc_emails": null,
+        "first_name": "Steve",
+        "last_name": "Jackson",
+        "company": "Recurly",
+        "vat_number": null,
+        "tax_exempt": true,
+        "exemption_certificate": null,
+        "parent_account_code": null,
+        "parent_account_id": null,
+        "bill_to": "self",
+        "transaction_type": "moto",
+        "dunning_campaign_id": null,
+        "invoice_template_id": null,
+        "address": {
+            "phone": null,
+            "street1": "123 Pleasant Way",
+            "street2": null,
+            "city": "Denver",
+            "region": "Mid",
+            "postal_code": "80203",
+            "country": "US"
+        },
+        "billing_info": {
+            "first_name": "Steve",
+            "last_name": "Jackson",
+            "company": "Recurly",
+            "address": {
+                "phone": "303-502-0000",
+                "street1": "123 Pleasant Way",
+                "street2": null,
+                "city": "Denver",
+                "region": "Mid",
+                "postal_code": "80203",
+                "country": "US"
+            },
+            "number": "4111111111111111",
+            "month": "10",
+            "year": "2022",
+            "cvv": null
+        },
+        "custom_fields": []
+    },
+    "subscriptions": [{
+        "plan_code": "plan10",
+        "plan_id": "",
+        "unit_amount": 0,
+        "quantity": 2,
+        "add_ons": [],
+        "custom_fields": [],
+        "shipping": {},
+        "trial_ends_at": null,
+        "starts_at": "2022-07-08T10:15:22Z",
+        "next_bill_date": "2022-08-24T14:15:22Z",
+        "total_billing_cycles": 1,
+        "renewal_billing_cycles": 10,
+        "auto_renew": true,
+        "revenue_schedule_type": "at_range_end"
+    }]
 }
