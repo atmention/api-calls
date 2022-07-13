@@ -1,0 +1,58 @@
+{
+  "code": "123456",
+  "acquisition": {
+    "cost": {
+      "currency": "USD",
+      "amount": 0
+    },
+    "channel": "advertising",
+    "subchannel": "",
+    "campaign": ""
+  },
+  "shipping_addresses": [],
+  "username": "tcarrier",
+  "email": "user@example.com",
+  "preferred_locale": "en-US",
+  "cc_emails": null,
+  "first_name": "Tim",
+  "last_name": "Carrier",
+  "company": "Recurly",
+  "vat_number": null,
+  "tax_exempt": true,
+  "exemption_certificate": null,
+  "parent_account_code": null,
+  "parent_account_id": null,
+  "bill_to": "self",
+  "transaction_type": "moto",
+  "dunning_campaign_id": null,
+  "invoice_template_id": null,
+  "address": {
+    "phone": "303-502-0000",
+    "street1": "123 place",
+    "street2": "",
+    "city": "Denver",
+    "region": "",
+    "postal_code": "80203",
+    "country": "US"
+  },
+  "billing_info": {
+    "first_name": "Tony",
+    "last_name": "Deckert",
+    "company": "Recurly",
+    "address": {
+    "street1": "123 place",
+			"street2": "",
+			"city": "Denver",
+			"region": "Mid",
+			"postal_code": "80203",
+			"country": "US",
+			"phone": "303-502-0000"
+    },
+    "number": "4111111111111111",
+    "month": "10",
+    "year": "2022",
+    "cvv": null
+  },
+  "custom_fields": [
+  ]
+}
